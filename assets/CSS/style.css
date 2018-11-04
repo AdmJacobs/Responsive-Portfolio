@@ -1,0 +1,162 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-color: white;
+    height: 76px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    border-color: #cccccc;
+    background-color: #ffffff;
+    
+}
+
+.main-nav li
+{
+   display: inline-block; 
+}
+
+.main-nav li a 
+{
+    color: gray;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a
+{
+    border: lpx solid grey;
+}
+
+.main-nav li a:hover
+{
+    border: solid grey;
+}
+
+.container
+{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    border:#dddddd;
+    clear: both;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body
+{
+    background-image: url(../Images/bananas/bananas.png);
+    height: 100%;
+}
+
+section
+{
+    background-color: #ffffff;
+}
+
+h1
+{
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    float: left;
+}
+
+h2
+{
+    color: #4aaaa5;
+    margin: 0;
+    border-bottom: 1px solid;
+    border-color: #666666;
+    padding: 5px;
+}
+
+img
+{
+    clear: both;
+    margin: 10px;
+    float: left;
+    width: 200px;
+    height: 200px;
+
+}
+
+
+
+
+.middle
+{
+    max-width: 960px;
+    margin:0 auto;
+    border:#dddddd;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: auto, flex-start, flex-end, center, baseline, stretch;
+    line-height: 1.5;
+    height: 300px;
+    margin-top: 20px;
+}
+
+footer
+{
+    background-color:#666666;
+    clear: both;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #dddddd;
+}
+
+@media screen and (max-width: 980px){
+.container{
+            width:600px;
+        }
+.middle{
+    width: 600px;
+}
+
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 500px;
+    }
+}
+.middle{
+    width: 500px;
+}
+
+
+@media screen and (max-width: 640px){
+.container{
+        width:600px;
+}
+.middle{
+    width:600px;
+}
+header{
+        position: static;
+}
+
+}
+
